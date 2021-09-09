@@ -1,0 +1,34 @@
+{
+    "name": "indeximstudion/laravel-telegram-messages",
+    "description": "Test package",
+    "keywords": ["laravel", "telegram", "messages"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Kotsyuruba",
+            "email": "foxcoonn1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3 || ^8.0",
+        "ext-mbstring": "*",
+        "laravel/framework": "^7|^8",
+        "irazasyed/telegram-bot-sdk": "^3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Indeximstudio\\LaravelTelegramMessages\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Indeximstudio\\LaravelTelegramMessages\\ServiceProvider"
+            ]
+        }
+    }
+}
